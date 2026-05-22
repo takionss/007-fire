@@ -1,0 +1,49 @@
+# 사이트 기본 설정
+title: Smiles Life - 파이어 라이프
+description: Smiles Life의 조기 은퇴를 위한 글로벌 파이어족 라이프스타일
+url: "https://takionss.github.io/007-fire"
+
+# 테마 설정 (여기서 디자인이 결정됩니다)
+theme: minima
+
+# 부가 설정 (선택 사항)
+permalink: /:categories/:title/
+
+# 페이지네이션(자동 번호 매기기) 설정
+plugins:
+  - jekyll-paginate
+  - jekyll-seo-tag    # 검색엔진용 메타 태그 자동 생성
+  - jekyll-sitemap    # sitemap.xml 자동 생성
+  - jekyll-feed       # feed.xml (RSS) 자동 생성
+  - jekyll-redirect-from
+
+paginate: 20
+paginate_path: "/page:num/"
+
+# 상단 메뉴에 페이지 자동 추가 방지
+header_pages:
+  - index.html
+
+# ----------------------------------------------------------------
+# [추가된 부분] 언어별 사이트 타이틀 및 설명 설정
+# ----------------------------------------------------------------
+titles:
+  ko: "Smiles Life - 파이어 라이프"
+  en: "Smiles Life - FIRE Life"
+  ja: "Smiles Life - FIREライフ"
+  zh-TW: "Smiles Life - FIRE 生活"
+  es: "Smiles Life - FIRE Life"
+
+descriptions:
+  ko: "Smiles Life의 조기 은퇴를 위한 글로벌 파이어족 라이프스타일"
+  en: "A global FIRE (Financial Independence, Retire Early) lifestyle for early retirement with Smiles Life. by Smiles Life"
+  ja: "Smiles Life의早期リタイアを目指すグローバルなFIRE族のライフスタイル（Smiles Life）"
+  zh-TW: "Smiles Life - 为实现提前退休的全球 FIRE 族生活方式"
+  es: "Smiles Life - Estilo de vida global para la comunidad FIRE enfocado en la jubilación temprana con Smiles Life."
+
+random_post_titles:
+  ko: "🎲 이런 글은 어떠세요?"
+  en: "How about this post?"
+  ja: "こんな記事はいかがですか？"
+  zh-TW: "您觉得这篇文章如何？"
+  es: "¿Qué te parece este tipo de artículo?"
