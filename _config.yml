@@ -50,11 +50,11 @@ header_pages:
 # [추가된 부분] 언어별 사이트 타이틀 및 설명 설정
 # ----------------------------------------------------------------
 titles:
-  ko: "Smiles Life - 파이어 라이프"
-  en: "Smiles Life - FIRE Life"
-  ja: "Smiles Life - FIREライフ"
-  zh-TW: "Smiles Life - FIRE 生活"
-  es: "Smiles Life - FIRE Life"
+  ko: "파이어 라이프"
+  en: "FIRE Life"
+  ja: "FIREライフ"
+  zh-TW: "FIRE 生活"
+  es: "FIRE Life"
 
 descriptions:
   ko: "Smiles Life의 조기 은퇴를 위한 글로벌 파이어족 라이프스타일"
