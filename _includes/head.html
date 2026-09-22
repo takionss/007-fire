@@ -27,6 +27,14 @@
 {% endif %}
 
 
+
+    {% endif %}
+    <link rel="alternate" hreflang="{{ l }}" href="{{ site.url }}{{ target_path }}" />
+  {% endfor %}
+  <link rel="alternate" hreflang="x-default" href="{{ site.url }}{{ clean_path }}" />
+{% endif %}
+
+
 <!-- Multilingual hreflang configuration (Technical SEO) -->
 {% if page.lang %}
   {% assign clean_path = page.url %}
