@@ -15,24 +15,10 @@
 
 
 
-    {% if l == "ko" %}
-      {% assign target_path = base_path | replace_first: '/why/', '/why/ko/' %}
-    {% else %}
-      {% assign target_prefix = '/why/' | append: l | append: '/' %}
-      {% assign target_path = base_path | replace_first: '/why/', target_prefix %}
-    {% endif %}
-    <link rel="alternate" hreflang="{{ l }}" href="{{ site.url }}{{ target_path }}" />
-  {% endfor %}
-  <link rel="alternate" hreflang="x-default" href="{{ site.url }}{{ page.url }}" />
-{% endif %}
 
 
 
-    {% endif %}
-    <link rel="alternate" hreflang="{{ l }}" href="{{ site.url }}{{ target_path }}" />
-  {% endfor %}
-  <link rel="alternate" hreflang="x-default" href="{{ site.url }}{{ clean_path }}" />
-{% endif %}
+
 
 
 
